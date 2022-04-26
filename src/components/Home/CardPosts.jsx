@@ -1,6 +1,8 @@
 import React from 'react'
-import avatar from '../../assets/images/avatar.png'
-export const CardPosts = ({title, desc,social}) => {
+import {BsHeartFill} from 'react-icons/bs';
+import {HiShare} from 'react-icons/hi'
+import {FaCommentDots} from 'react-icons/fa'
+export const CardPosts = ({title, avatar, desc}) => {
   return (
     <article className='posts__card'>
     
@@ -12,14 +14,20 @@ export const CardPosts = ({title, desc,social}) => {
       </p>
       </div>
       <div className='posts__card__footer'>
-        {
-          social.map((item, index) => (
-            <div key={index}>
-              <item.Icon />
-              <span>{item.cant}</span>
+
+            <div >
+              <BsHeartFill />
+              <span>325</span>
             </div>
-          ))
-        }
+            <div >
+              <FaCommentDots />
+              <span>115</span>
+            </div>
+            <div >
+              <HiShare />
+              <span>47</span>
+            </div>
+
       </div>
     </article>
   )

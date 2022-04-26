@@ -168,6 +168,12 @@
             font-family: $font-family2;
             font-weight: 500;
             border-radius: 100px;
+            cursor: pointer;
+
+            &:hover{
+              background: $color-negro_transparent;
+              color: $color_white;
+            }
         }
     }
       }
