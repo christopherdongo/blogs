@@ -31,6 +31,10 @@
 
 
         .posts__card{
+            background: linear-gradient(
+                $color_card_dradient1,
+                $color_card_transparent
+              ), url('/src/assets/images/Rectangle5.png');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
