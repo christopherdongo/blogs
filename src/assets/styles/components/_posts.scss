@@ -31,11 +31,8 @@
 
 
         .posts__card{
-            background: 
-            linear-gradient($color_card_dradient1, $color_card_transparent),
-            url('src/assets/images//Rectangle5.png');
-            background-repeat:no-repeat;
-            background-size:cover;
+            background-size: cover;
+            background-repeat: no-repeat;
             background-position: center;
              width: 80%;
              margin-bottom: 44px;
