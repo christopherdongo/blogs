@@ -1,0 +1,122 @@
+.home__posts{
+     margin-top: 90px;
+
+     @media (min-width:768px){
+        margin-top: 130px;
+     }
+    h4{
+        text-align: center;
+        color: $color-heading;
+        font-size: 41px;
+        font-family: $font-family2;
+        font-weight: 600;
+        line-height: 52px;
+    }
+    .home__posts__card{
+         max-width: 1004px;
+          display: flex;
+          flex-wrap: wrap;
+          margin: 0 auto;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-top: 50px;
+
+          @media (min-width:768px){
+              flex-direction:row;
+              justify-content: space-between;
+              margin-top: 76px;
+          }
+
+
+
+        .posts__card{
+            background: 
+            linear-gradient($color_card_dradient1, $color_card_transparent),
+            url('src/assets/images//Rectangle5.png');
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-position: center;
+             width: 80%;
+             margin-bottom: 44px;
+             border-radius: 7px;
+             filter: drop-shadow(3px 23px 10px rgba(0, 0, 0, 0.27)) drop-shadow(6px 8px 20px rgba(30, 14, 98, 0.35));
+            @media (min-width:768px){
+                width:45%;
+            }
+
+           .posts__card__body{
+            padding: 30px 25px 0px 25px;
+            img{
+                display: block;
+                margin: 0;
+                width:55.03px;
+                height: 54.83px;
+                margin-bottom: 89px;
+                border-radius: 8px;
+            }
+            h4{
+                font-size: 40px;
+                font-weight: 600;
+                line-height: 49.59px;
+                color: $color_white;
+                text-align: left;
+                width: 293.99px;
+
+                @media (min-width:768px){
+                    font-size:46px;
+                }
+            }
+
+            p{
+                margin-top: 35.92px;
+                font-family: $font-family2;
+                color: $color_white;
+                font-size: 19px;
+                line-height:24.72px;
+                margin-bottom: 62.42px;
+
+            }
+           }
+
+            .posts__card__footer{
+                height: 68.61px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                gap: 29px;
+                position: relative;
+                border-top: 2px solid rgba(255, 255, 255, 0.2);
+                padding: 0 25px;
+                mix-blend-mode: normal;
+
+                @media (min-width:768px){
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 48px;
+                }
+
+                div{
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 13.5px;
+                    color: $color_white;
+                    
+                    svg{
+                     width: 27px;
+                     height: 24.22px;
+                     
+                    }
+                    span{
+                        font-size: 15px;
+                        font-weight: 400;
+                        
+                    }
+                }
+            }
+
+        }
+    }
+}
