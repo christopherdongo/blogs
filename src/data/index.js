@@ -24,7 +24,7 @@ export const categorias = [
 
 export const posts =[{
   title:'A Guide To Rocky Mountain',
-  avatar:'src/assets/images/avatar.png',
+  avatar:'../assets/images/avatar.png',
   desc:'These tips come from the safety experts at Voith Turbo, York, Pa., which manufactures a device that helps trains with braking, to make train travel even better. The new type of railcar is on',
   social:[
     {
@@ -43,7 +43,7 @@ export const posts =[{
 },
 {
   title:'A Guide To Rocky Mountain',
-  avatar:'src/assets/images/avatar.png',
+  avatar:'../assets/images/avatar.png',
   desc:'These tips come from the safety experts at Voith Turbo, York, Pa., which manufactures a device that helps trains with braking, to make train travel even better. The new type of railcar is on',
   social:[
     {
@@ -62,7 +62,7 @@ export const posts =[{
 },
 {
   title:'A Guide To Rocky Mountain',
-  avatar:'src/assets/images/avatar.png',
+  avatar:'../assets/images/avatar.png',
   desc:'These tips come from the safety experts at Voith Turbo, York, Pa., which manufactures a device that helps trains with braking, to make train travel even better. The new type of railcar is on',
   social:[
     {
@@ -81,7 +81,7 @@ export const posts =[{
 },
 {
   title:'A Guide To Rocky Mountain',
-  avatar:'src/assets/images/avatar.png',
+  avatar:'../assets/images/avatar.png',
   desc:'These tips come from the safety experts at Voith Turbo, York, Pa., which manufactures a device that helps trains with braking, to make train travel even better. The new type of railcar is on',
   social:[
     {
@@ -100,7 +100,7 @@ export const posts =[{
 },
 {
   title:'A Guide To Rocky Mountain',
-  avatar:'src/assets/images/avatar.png',
+  avatar:'../assets/images/avatar.png',
   desc:'These tips come from the safety experts at Voith Turbo, York, Pa., which manufactures a device that helps trains with braking, to make train travel even better. The new type of railcar is on',
   social:[
     {
@@ -119,7 +119,7 @@ export const posts =[{
 },
 {
   title:'A Guide To Rocky Mountain',
-  avatar:'src/assets/images/avatar.png',
+  avatar:'../assets/images/avatar.png',
   desc:'These tips come from the safety experts at Voith Turbo, York, Pa., which manufactures a device that helps trains with braking, to make train travel even better. The new type of railcar is on',
   social:[
     {

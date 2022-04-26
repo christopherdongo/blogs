@@ -110,14 +110,16 @@
                 width: 36.41px;
                 height: 49px;
                 color: $color_white;
+
             }
+            
         }
         h3{
-            display: inline-block;
-            color: $color-heading;
+         display: inline-block;
+         color: $color-heading;
          text-align: left;
          font-weight: 700;
-          font-size: 38px;
+         font-size: 38px;
          line-height: 1.2;
          max-width: 622.99px;
          
@@ -132,9 +134,13 @@
                 font-family: $font-family2;
                 color: rgba(21, 20, 57, 0.4);
                 font-weight: 500;
+                justify-content: center;
 
+                @media(min-width:473px){
+                    justify-content: flex-start;
+                }
                 @media(min-width:768px){
-                    font-size:22px;
+                  font-size:22px;
                 }
             }
 

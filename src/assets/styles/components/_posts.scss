@@ -41,12 +41,13 @@
              margin-bottom: 44px;
              border-radius: 7px;
              filter: drop-shadow(3px 23px 10px rgba(0, 0, 0, 0.27)) drop-shadow(6px 8px 20px rgba(30, 14, 98, 0.35));
+
             @media (min-width:768px){
-                width:45%;
+                width:47%;
             }
 
            .posts__card__body{
-            padding: 30px 25px 0px 25px;
+            padding: 30px 28px 0px 28px;
             img{
                 display: block;
                 margin: 0;
@@ -107,6 +108,11 @@
                     svg{
                      width: 27px;
                      height: 24.22px;
+
+                     &:hover{
+                         cursor: pointer;
+                         transform: scale(1.1);
+                     }
                      
                     }
                     span{
